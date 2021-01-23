@@ -1,8 +1,8 @@
 {
-    "name": "flarum/lang-english",
+    "name": "cwkevo/flarum-lang-slovak",
     "type": "flarum-extension",
-    "description": "English language pack.",
-    "keywords": ["locale"],
+    "description": "Slovak language pack for Flarum.",
+    "keywords": ["locale", "flarum", "slovak", "sk", "language pack"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.15"
@@ -12,12 +12,10 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "English",
+            "title": "Slovak",
             "category": "language",
             "info": {
-                "donate": "https://flarum.org/donate/",
-                "website": "https://flarum.org",
-                "support": "https://discuss.flarum.org"
+                "support": "https://discuss.flarum.org/d/20993"
             },
             "icon": {
                 "image": "icon.svg",
@@ -27,8 +25,8 @@
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "English"
+            "code": "sk",
+            "title": "Slovak"
         }
     }
 }
