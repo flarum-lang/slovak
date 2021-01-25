@@ -118,32 +118,32 @@ core:
 
     # These translations are used on default extension pages.
     extension:
-      confirm_uninstall: Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?
-      disabled: Disabled
-      enabled: Enabled
-      enable_to_see: Enable the extension to view and change settings.
+      confirm_uninstall: Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho nahrané súbory. Si si istý že chceš pokračovať?
+      disabled: Deaktivovaný
+      enabled: Aktivovaný
+      enable_to_see: Aktivuj tento doplnok pre zobrazenie a zmenu jeho nastavení.
       info_links:
-        discuss: Discuss
-        documentation: Documentation
-        donate: Donate
-        source: Source
-        support: Support
-        website: Website
-      no_permissions: This extension has no permissions.
-      no_settings: This extension has no settings.
-      open_modal: Open Settings
-      permissions_title: Permissions
-      saved_message: Your changes were saved.
-      uninstall_button: Uninstall
+        discuss: Diskusia
+        documentation: Dokumentácia
+        donate: Prispieť
+        source: Zdrojový Kód
+        support: Podpora
+        website: Webová Stránka
+      no_permissions: Tento doplnok neobsahuje žiadne oprávnenia.
+      no_settings: Tento doplnok neobsahuje žiadne nastavenia.
+      open_modal: Otvoriť Nastavenia
+      permissions_title: Oprávnenia
+      saved_message: Tvoje zmeny boli uložené.
+      uninstall_button: Odinštalovať
 
     # These translations are used in the secondary header.
     header:
-      get_help: Get Help
+      get_help: Pomoc
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Prosím čakaj...
 
     # These translations are used in the navigation bar.
     nav:
@@ -152,51 +152,51 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Authentication
-        core: Core Configuration
-        discussion: Discussion
-        feature: Features
-        formatting: Formatting
-        language: Languages
-        moderation: Moderation
-        other: Other Extensions
-        theme: Themes
+        authentication: Autentifikácia
+        core: Konfigurácia Jadra
+        discussion: Diskusia
+        feature: Funkcie
+        formatting: Formátovanie
+        language: Jazyky
+        moderation: Moderácia
+        other: Ostatné Doplnky
+        theme: Témy
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
-      search_placeholder: Search Extensions
+      search_placeholder: Vyhľadať doplnky
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      delete_posts_label: Delete posts
-      description: Configure who can see and do what.
-      edit_posts_label: Edit posts
-      edit_users_label: Edit users
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
+      allow_post_editing_label: Umožnenie upravenia príspevku
+      allow_renaming_label: Umožnenie premenovania diskusie
+      create_heading: Vytvoriť
+      delete_discussions_forever_label: Navždy odstrániť diskusie
+      delete_discussions_label: Odstrániť diskusie
+      delete_posts_forever_label: Navždy odstrániť príspevky
+      delete_posts_label: Odstrániť príspevky
+      description: Vyber, kto môže čo robiť.
+      edit_posts_label: Upraviť príspevky
+      edit_users_label: Upraviť používateľov
+      global_heading: Globálne
+      moderate_heading: Moderácia
+      new_group_button: Nová skupina
+      participate_heading: Zúčastňovanie
       post_without_throttle_label: Reply multiple times without waiting
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      title: Permissions
-      view_discussions_label: View discussions
-      view_hidden_groups_label: View hidden group badges
-      view_last_seen_at_label: Always view user last seen time
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      read_heading: Viditeľnosť
+      rename_discussions_label: Premenovať diskusie
+      reply_to_discussions_label: Odpovedať na diskusie
+      sign_up_label: Registrovať sa
+      start_discussions_label: Začat diskusie
+      title: Oprávnenia
+      view_discussions_label: Zobraziť diskusie
+      view_hidden_groups_label: Zobraziť skryté skupiny
+      view_last_seen_at_label: Vždy zobraziť čas poslednej návštevy používateľa
+      view_post_ips_label: Zobraziť IP adresy príspevkov
+      view_user_list_label: Zobraziť zoznam používateľov
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
