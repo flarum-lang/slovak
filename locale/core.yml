@@ -246,7 +246,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Odpovedať...
+      body_placeholder: Napíš tvoj príspevok...
       discard_confirmation: "Neposlal si tvoju diskusiu. Chceš ju zahodiť?"
       submit_button: Odoslať Diskusiu
       title: => core.ref.start_a_discussion
