@@ -1,27 +1,27 @@
 validation:
-  accepted: "The :attribute must be accepted."
-  active_url: "The :attribute is not a valid URL."
-  after: "The :attribute must be a date after :date."
-  after_or_equal: "The :attribute must be a date after or equal to :date."
-  alpha: "The :attribute may only contain letters."
-  alpha_dash: "The :attribute may only contain letters, numbers, dashes and underscores."
-  alpha_num: "The :attribute may only contain letters and numbers."
-  array: "The :attribute must be an array."
-  before: "The :attribute must be a date before :date."
-  before_or_equal: "The :attribute must be a date before or equal to :date."
+  accepted: ":attribute musí byť odsúhlasená."
+  active_url: ":attribute nie je platná URL adresa."
+  after: ":attribute musí byť dátum po :date."
+  after_or_equal: ":attribute musí byť dátum rovný dátumu alebo po dátume :date."
+  alpha: ":attribute smie obsahovať iba písmená."
+  alpha_dash: ":attribute smie obsahovať iba písmená, číslice, pomlčky a podtržníky."
+  alpha_num: ":attribute smie obsahovať iba písmená a číslice."
+  array: ":attribute musí byť array pole."
+  before: ":attribute musí byť dátum pred :date."
+  before_or_equal: ":attribute musí byť dátum rovný dátumu alebo pred dátumom :date."
   between:
-    numeric: "The :attribute must be between :min and :max."
-    file: "The :attribute must be between :min and :max kilobytes."
-    string: "The :attribute must be between :min and :max characters."
-    array: "The :attribute must have between :min and :max items."
-  boolean: "The :attribute field must be true or false."
-  confirmed: "The :attribute confirmation does not match."
-  date: "The :attribute is not a valid date."
-  date_equals: "The :attribute must be a date equal to :date."
-  date_format: "The :attribute does not match the format :other."
-  different: "The :attribute and :other must be different."
-  digits: "The :attribute must be :digits digits."
-  digits_between: "The :attribute must be between :min and :max digits."
+    numeric: ":attribute musí byť medzi :min a :max."
+    file: ":attribute musí mať veľkosť medzi :min a :max kilobajtmi."
+    string: ":attribute musí obsahovať medzi :min a :max znakmi."
+    array: ":attribute musí obsahovať medzi :min a :max položkami."
+  boolean: "Políčko :attribute musí byť true (pravdivé) alebo false (nepravdivé)."
+  confirmed: ":attribute potvrdenie sa nezhoduje."
+  date: ":attribute nie je platným dátumom."
+  date_equals: ":attribute musí byť dátum rovný dátumu :date."
+  date_format: ":attribute sa nezhoduje s formátom :other."
+  different: "Atribúty :attribute a :other musia byť odlišné."
+  digits: ":attribute musí mať :digits číslic(e)."
+  digits_between: ":attribute musí byť číslicou medzi :min a :max."
   dimensions: "The :attribute has invalid image dimensions."
   distinct: "The :attribute field has a duplicate value."
   email: "The :attribute must be a valid email address."
@@ -97,12 +97,12 @@ validation:
   uuid: "The :attribute must be a valid UUID."
 
   attributes:
-    username: username
-    password: password
+    username: používateľské meno
+    password: heslo
     email: email
-    title: title
-    content: content
-    name_singular: singular name
-    name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    title: názov
+    content: obsah
+    name_singular: meno v singulári
+    name_plural: meno v plulári
+    tag_count_primary: počet hlavných štítkov
+    tag_count_secondary: počet vedľajších štítkov
