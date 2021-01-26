@@ -201,7 +201,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Na neurčito
-      allow_some_minutes_button: "Na {count} minútu|Na {count} minút"
+      allow_some_minutes_button: "Na {count} minútu|Na {count} minút(y)"
       allow_ten_minutes_button: Na 10 minút
       allow_until_reply_button: Do ďalšej odpovede
       everyone_button: Všetci
