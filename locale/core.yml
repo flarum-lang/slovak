@@ -45,8 +45,8 @@ core:
       home_page_text: Vyber stránku ktorú tvoji návštevníci uvidia ako prvú keď navštívia tvoje fórum.
       saved_message: Tvoje zmeny boli uložené.
       show_language_selector_label: Zobraziť výber jazyka.
-      slug_driver_heading: "Ovládač Slugov: {model}"
-      slug_driver_text: Vyber ovládač ktorý sa použije na slugovanie tohto modelu.
+      slug_driver_heading: "Ovládač Identifikátorov: {model}"
+      slug_driver_text: Vyber ovládač ktorý sa použije na identifikovanie tohto modelu.
       submit_button: => core.ref.save_changes
       title: Základy
       welcome_banner_heading: Uvítacie Tablo

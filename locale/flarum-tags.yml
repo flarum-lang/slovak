@@ -14,96 +14,96 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      delete_tag_button: Delete Tag
-      delete_tag_confirmation: "Are you sure you want to delete this tag? The tag's discussions will NOT be deleted."
-      description_label: Description
-      hide_label: Hide from All Discussions
+      delete_tag_button: Odstrániť Štítok
+      delete_tag_confirmation: "Si si istý že chceš odstrániť tento štítok? Diskusie označené týmto štítkom NEBUDÚ odstránené."
+      description_label: Popis
+      hide_label: Skryť zo Všetkých Diskusií
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Slug
+      slug_label: Identifikátor
       submit_button: => core.ref.save_changes
-      title: Create Tag
+      title: Vytvoriť Štítok
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: Spravuj zoznam dostupných štítkov pre organizovanie diskusií.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Allow tag editing
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      allow_edit_tags_label: Umožniť upravovanie štítkov
+      restrict_by_tag_heading: Obmedziť Štítkom
+      tag_discussions_label: Oštítkovať diskusie
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
-      title: Tag Settings
+      range_separator_text: " po "
+      required_primary_heading: Požadované Množstvo Hlavných Štítkov
+      required_primary_text: Zadaj minimálne a maximálne množstvo hlavných štítkov ktorými sa smie oštítkovať diskusia.
+      required_secondary_heading: Požadované Množstvo Vedľajších Štítkov
+      required_secondary_text: Zadaj minimálne a maximálne množstvo vedľajších štítkov ktorými sa smie oštítkovať diskusia.
+      title: Nastavenia Štítkov
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
-      create_primary_tag_button: Create Primary Tag
-      create_secondary_tag_button: Create Secondary Tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
-      settings_heading: Settings
+      about_tags_text: "Štítky slúžia na označenie diskusií. Hlavné štítky sú ako tradičné fórumové kategórie: môžu byť usporiadané v 2-levelovej hierarchii. Vedľajšie štítky nemajú hierarchiu alebo zoradenie a sú užitočné pre mikrokategorizáciu."
+      create_primary_tag_button: Vytvoriť Hlavný Štítok
+      create_secondary_tag_button: Vytvoriť Vedľajší Štítok
+      primary_heading: Hlavné Štítky
+      secondary_heading: Vedľajšie Štítky
+      settings_heading: Nastavenia
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed on the page that lists all tags.
     all_tags:
-      meta_description_text: All Tags
+      meta_description_text: Všetky Štítky
       meta_title_text: => flarum-tags.ref.tags
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "Vyber 1 hlavný štítok|Vyber ešte {count} hlavné/ých štítky/ov"
+      choose_secondary_placeholder: "Vyber 1 vedľajší štítok|Vyber ešte {count} vedľajšie/ích štítky/ov"
+      edit_title: "Uprav štítky pre {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Vyber si štítky pre označenie tvojej diskusie
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Vybrať Štítky
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: Upraviť Štítky
 
     header:
-      back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: Späť na zoznam štítkov
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Viac...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: Neoštítkované
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      added_tags_text: "{username} added the {tagsAdded}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_and_removed_tags_text: "{username} pridal štítky {tagsAdded} a odstránil štítky {tagsRemoved}."
+      added_tags_text: "{username} pridal štítky {tagsAdded}."
+      removed_tags_text: "{username} odstránil štítky {tagsRemoved}."
+      tags_text: "{tags} štítok|{tags} štítky/ov"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "All discussions with the {tag} tag"
+      meta_description_text: "Všetky diskusie so štítkom {tag}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: Odstránený Štítok
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -111,5 +111,5 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    name: Name
-    tags: Tags
+    name: Názov
+    tags: Štítky
