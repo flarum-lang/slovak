@@ -1,24 +1,24 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: Edit own nickname
+      edit_own_nickname_label: Uprav svoju prezývku
     settings:
-      max_label: Maximum nickname length
-      min_label: Minimum nickname length
-      regex_label: Regular expression for validation
-      unique_label: Require unique nicknames?
-    wrong_driver: You must select "nickname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.
+      max_label: Maximálna dĺžka prezývok
+      min_label: Minimálna dĺžka prezývok
+      regex_label: Regulárny výraz pre validáciu
+      unique_label: Vyžadovať originálne prezývky?
+    wrong_driver: Musíte vybrať "nickname" ako ovládač pre zobrazenie mien v <a><strong>Základných Nastaveniach</strong></a> aby mal tento doplnok nejaký účinok.
   api:
-    invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
+    invalid_nickname_message: Táto prezývka je neplatná. Prosím, kontaktujte administrátora tohto fóra pre informácie o platnosti prezývok.
   forum:
     change_nickname:
       submit_button: => core.ref.save_changes
       title:  => flarum-nicknames.ref.change_nickname
     edit_user:
       nicknames_heading: => flarum-nicknames.ref.change_nickname
-      nicknames_text: Nickname
+      nicknames_text: Prezývka
     settings:
       change_nickname_button: => flarum-nicknames.ref.change_nickname
 
   ref:
-    change_nickname: Change Nickname
+    change_nickname: Zmeniť Prezývku
