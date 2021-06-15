@@ -1,5 +1,5 @@
 {
-    "name": "cwkevo/flarum-lang-slovak",
+    "name": "flarum-lang/slovak",
     "type": "flarum-extension",
     "description": "Slovak language pack for Flarum.",
     "keywords": ["locale", "flarum", "slovak", "sk", "language pack"],
