@@ -8,18 +8,18 @@ I plan to support all extensions available at [FreeFlarum](https://discuss.flaru
 
 ### Installation:
 ```
-composer require cwkevo/flarum-lang-slovak
+composer require flarum-lang/slovak
 ```
 
 ### Updating
 ```
-composer update cwkevo/flarum-lang-slovak
+composer update flarum-lang/slovak
 php flarum cache:clear
 ```
 
 I know that not many Slovakians will use this language pack, but I want to contribute with my bit to make Flarum open for more people.
 
 #### Some links:
-- [Packagist](https://packagist.org/packages/cwkevo/flarum-lang-slovak)
+- [Packagist](https://packagist.org/packages/flarum-lang/slovak)
 - [Discuss](https://discuss.flarum.org/d/20993)
-- [GitHub](https://github.com/CWKevo/flarum-lang-slovak)
+- [GitHub](https://github.com/flarum-lang/slovak)
