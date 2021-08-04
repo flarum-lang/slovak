@@ -14,7 +14,7 @@ fof-pages:
       delete_page_confirmation: 'Ste si istí že chcete odstrániť túto stránku?'
       hidden_label: 'Uložiť ako návrh'
       html_label: 'Povoliť HTML'
-      restricted_label: 'Obmedziť prístup (konfigurujte kto má k stránke prístup na table Povolenia)'
+      restricted_label: 'Obmedziť prístup (konfigurujte kto má k stránke prístup na stránke"Povolenia")'
       set_as_home_page_confirmation: 'Ste si istí že chcete nastaviť túto stránku ako Vašu domovskú stránku fóra?'
       set_as_home_page_done: 'Domovská stránka bola aktualizovaná'
       slug_label: '=> fof-pages.ref.slug'
@@ -36,6 +36,6 @@ fof-pages:
     content: Obsah
     create_page: 'Vytvoriť stránku'
     pages: Stránky
-    slug: Slug
+    slug: Identifikátor
     title: Názov
-    url: URL
+    url: 'URL adresa'
