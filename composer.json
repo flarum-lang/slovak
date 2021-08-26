@@ -1,25 +1,37 @@
 {
     "name": "flarum-lang/slovak",
+    "description": "Slovak language for Flarum.",
     "type": "flarum-extension",
-    "description": "Slovak language pack for Flarum.",
-    "keywords": ["locale", "flarum", "slovak", "sk", "language pack"],
+    "keywords": ["flarum", "extension", "slovak", "locale", "translation", "i18n"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "SKevo",
+            "email": "me@kevo.link"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum-lang/slovak/issues",
+        "source": "https://github.com/flarum-lang/slovak",
+        "forum": "https://discuss.flarum.org/d/20993"
+    },
     "require": {
-        "flarum/core": "^0.1.0-beta.15"
+        "flarum/core": "^1.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "1.0.x-dev"
         },
         "flarum-extension": {
             "title": "Slovak",
             "category": "language",
             "info": {
-                "support": "https://discuss.flarum.org/d/20993"
+                "website": "https://github.com/flarum-lang/slovak",
+                "support": "https://github.com/flarum-lang/slovak/issues"
             },
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#00247d",
+                "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
@@ -27,6 +39,9 @@
         "flarum-locale": {
             "code": "sk",
             "title": "Slovenčina"
+        },
+        "extiverse": {
+            "discuss": "https://discuss.flarum.org/d/20993"
         }
     }
 }
