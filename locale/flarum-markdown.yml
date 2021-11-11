@@ -13,4 +13,5 @@ flarum-markdown:
       link_tooltip: 'Pridať odkaz'
       ordered_list_tooltip: 'Pridať číselný zoznam'
       quote_tooltip: 'Pridať citát'
+      strikethrough_tooltip: 'Pridať prečiarknutý text'
       unordered_list_tooltip: 'Pridať odrážkový zoznam'
