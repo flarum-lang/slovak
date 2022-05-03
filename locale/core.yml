@@ -99,6 +99,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 'Nastaviť Rozsahy'
+      confirm_purge: 'Vyčistením sa odstránia všetky položky databázy a aktíva súvisiace s rozšírením. Neodinštaluje rozšírenie; to treba urobiť cez Composer. Ste si istý, že chcete pokračovať?'
       confirm_uninstall: 'Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?'
       disabled: Deaktivovaný
       enable_to_see: 'Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.'
@@ -114,6 +115,11 @@ core:
       no_settings: 'Tento doplnok neobsahuje žiadne nastavenia.'
       open_modal: 'Otvoriť Nastavenia'
       permissions_title: Oprávnenia
+      purge_button: Vyčistiť
+      readme:
+        button_label: README
+        no_readme: 'Zdá sa, že toto rozšírenie nemá súbor README'
+        title: '{extName} dokumentácia'
       saved_message: 'Tvoje zmeny boli uložené.'
       uninstall_button: Odinštalovať
     header:
@@ -288,6 +294,7 @@ core:
       mark_as_read_tooltip: 'Označiť Ako Prečítané'
       replied_text: 'Používateľ {username} odpovedal {ago}'
       started_text: 'Používateľ {username} začal {ago}'
+      total_replies_a11y_label: '{count, plural, one {# reply} other {# replies}}'
     edit_user:
       activate_button: 'Aktivovať Používateľa'
       email_heading: '=> core.ref.email'
@@ -315,7 +322,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
+      search_clear_button_accessible_label: 'Vymazať dopyt vyhľadávania'
       search_placeholder: 'Prehľadať Fórum'
+      search_role_label: 'Hľadať vo fóre'
       session_dropdown_accessible_label: 'Prepnúť rozbaľovacie menu nastavení relácie'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -426,6 +435,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Znovu Odoslať Potvrdzovací Mail'
       sent_message: Poslané
+    welcome_hero:
+      hide: 'Skryť uvítaciu správu'
   group:
     admin: Administrátor
     admins: Administrátori
@@ -436,8 +447,11 @@ core:
     mod: Moderátor
     mods: Moderátori
   lib:
+    alert:
+      dismiss_a11y_label: 'Zrušiť upozornenie'
     badge:
       hidden_tooltip: Skrytá
+    debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Prepnúť rozbaľovacie menu'
     edit_user:
@@ -445,6 +459,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Skupiny
+      nothing_available: 'Nemáte povolenie upravovať tohto používateľa.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Nastaviť nové heslo'
@@ -457,10 +472,19 @@ core:
       generic_message: 'Hups! Vyskytla sa chyba. Prosím, opätovne načítajte stránku a skúste to znovu.'
       missing_dependencies_message: 'Nemožno aktivovať {extension} pokiaľ nie sú aktivované aj nasledujúce doplnky: {extensions}'
       not_found_message: 'Požadovaný obsah sa nenašiel.'
+      payload_too_large_message: 'Užitočné zaťaženie požiadavky bolo príliš veľké.'
       permission_denied_message: 'Na toto nemáš oprávnenie.'
       rate_limit_exceeded_message: 'Ideš trošku prirýchlo. Skús to znova neskôr.'
+      render_failed_message: 'Ľutujeme, pri zobrazovaní tohto obsahu sa vyskytla chyba. Ak ste používateľom, skúste to znova neskôr. Ak ste správcom, pozrite sa do súborov denníka Flarum, kde nájdete ďalšie informácie.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
+    modal:
+      close: Zavrieť
+    nav:
+      drawer_button: 'Otvorte navigačný panel'
     number_suffix:
       kilo_text: tis.
       mega_text: mil.
@@ -475,6 +499,7 @@ core:
     change_email: 'Zmeniť Email'
     change_password: 'Zmeniť Heslo'
     color: Farba
+    confirm_email: 'Potvrď email'
     confirm_password: 'Potvrdiť Heslo'
     confirmation_email_sent: 'Odoslali sme potvrdzovací mail na adresu {email}. Ak nedorazí, prosím skontrolujte Váš spamový kôš.'
     custom_footer_text: 'Pridaj HTML kód ktorý sa zobrazí na úplnom dne každej stránky.'
@@ -487,6 +512,7 @@ core:
     edit: Upraviť
     edit_user: 'Upraviť používateľa'
     email: Email
+    extensions: Rozšírenia
     icon: Ikona
     icon_text: 'Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.'
     load_more: 'Načítať Viac'
@@ -516,6 +542,22 @@ core:
     write_a_reply: 'Napísať Odpoveď...'
     you: Ty
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: Zakázať
+        empty: 'Žiadne nainštalované rozšírenia'
+        enable: Povoliť
+        name: 'Názov rozšírenia'
+        package_name: 'Názov balíka'
+        version: Verzia
+      info:
+        caption: 'Informácie o aplikácii'
+      title: Administrácia
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Kliknutím na tlačidlo nižšie potvrďte e-mail svojho účtu.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Táto stránka sa najlepšie zobrazí v modernom prehliadači so zapnutým JavaScriptom.'
       load_error_message: 'Pri zobrazovaní stránky sa vyskytla chyba. Skús znovunačítať stránku, možno sa to spraví.'
