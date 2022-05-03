@@ -295,6 +295,7 @@ core:
       replied_text: 'Používateľ {username} odpovedal {ago}'
       started_text: 'Používateľ {username} začal {ago}'
       total_replies_a11y_label: '{count, plural, one {# reply} other {# replies}}'
+      unread_replies_a11y_label: '{count, plural, one {# unread reply} other {# unread replies}}. Označiť neprečítané {count, plural, one {reply} other {replies}} ako prečítané.'
     edit_user:
       activate_button: 'Aktivovať Používateľa'
       email_heading: '=> core.ref.email'
