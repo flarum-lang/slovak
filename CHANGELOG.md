@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.2.0 (2022-09-24)
+------------------
+
+**Pridaná podpora pre nové rozšírenia**:
+
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+**Aktualizované preklady pre rozšírenia**:
+
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+
+
+Všetky zmeny: [v1.1.0...v1.2.0](https://github.com/flarum-lang/slovak/compare/v1.1.0...v1.2.0).
+
+
 1.1.0 (2022-08-30)
 ------------------
 
