@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.2.0 (XXXX-XX-XX)
+1.2.0 (2022-09-24)
 ------------------
 
 **Pridaná podpora pre nové rozšírenia**:
