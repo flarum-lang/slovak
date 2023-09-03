@@ -22,6 +22,7 @@ CHANGELOG
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
 Všetky zmeny: [v1.2.0...v1.3.0](https://github.com/flarum-lang/slovak/compare/v1.2.0...v1.3.0).
