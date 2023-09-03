@@ -10,6 +10,13 @@ CHANGELOG
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 
 
+**Aktualizované preklady pre rozšírenia**:
+
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+
+
 Všetky zmeny: [v1.2.0...v1.3.0](https://github.com/flarum-lang/slovak/compare/v1.2.0...v1.3.0).
 
 
