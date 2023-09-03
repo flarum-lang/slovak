@@ -5,14 +5,21 @@ CHANGELOG
 1.3.0 (XXXX-XX-XX)
 ------------------
 
+**Všeobecné zmeny**:
+
+* Aktualizované preklady Flarum core.
+
+
 **Pridaná podpora pre nové rozšírenia**:
 
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
 
 
 **Aktualizované preklady pre rozšírenia**:
 
 * [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 
