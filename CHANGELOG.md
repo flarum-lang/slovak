@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.0 (XXXX-XX-XX)
+------------------
+
+**Pridaná podpora pre nové rozšírenia**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+
+
+Všetky zmeny: [v1.2.0...v1.3.0](https://github.com/flarum-lang/slovak/compare/v1.2.0...v1.3.0).
+
+
 1.2.0 (2022-09-24)
 ------------------
 
