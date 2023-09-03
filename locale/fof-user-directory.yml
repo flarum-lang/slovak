@@ -8,6 +8,7 @@ fof-user-directory:
       view_user_directory: 'Zobraziť zoznam používateľov'
     settings:
       default-sort: 'Predvolené triedenie'
+      disable-global-search-source: 'Nepridávať zoznam používateľov do globálneho vyhľadávania Flarum'
       link: 'Pridať odkaz na hlavnú stránku pre používateľov ktorí môžu vidieť zoznam'
       use-small-cards: 'Použiť malé karty používateľov'
   forum:
@@ -19,9 +20,15 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Zoznam Používateľov'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count, plural, one { {count} diskusia} few {{count} diskusie} other {{count} diskusií}}'
+        post-count: '{count, plural, one { {count} komentár} few {{count} komentáre} other {{count} komentárov}}'
     search:
       field:
         placeholder: 'Vyhľadať všetkých používateľov'
+      kinds:
+        group: Skupina
+        text: 'Voľný text'
       users_heading: 'Vyhľadať všetkých používateľov pre dopyt "{query}"'
   lib:
     sort:
