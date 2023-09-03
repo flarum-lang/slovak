@@ -31,6 +31,7 @@ php flarum cache:clear
 | --- | --- |
 | [`flarum/akismet`](https://github.com/flarum/akismet) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-akismet/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/sk/) |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/sk/) |
+| [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/sk/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/sk/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/sk/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/sk/) |
