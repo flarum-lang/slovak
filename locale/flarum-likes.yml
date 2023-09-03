@@ -6,6 +6,9 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: 'Lajkovanie príspevkov'
+    settings:
+      like_own_posts_help: 'Ak je táto možnosť povolená, používatelia môžu na fóre "lajkovať" svoje vlastné príspevky. Ak chcete používateľom zabrániť v umiestňovaní "lajkov" na ich vlastné príspevky, vypnite toto nastavenie.'
+      like_own_posts_label: 'Používatelia môžu lajkovať svoje vlastné príspevky'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -18,6 +21,7 @@ flarum-likes:
       unlike_link: 'Už sa mi to nepáči'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Používatelia ktorým sa to páči'
     settings:
       notify_post_liked_label: 'Niekomu sa páči môj príspevok'
