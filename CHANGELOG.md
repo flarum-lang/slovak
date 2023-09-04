@@ -14,15 +14,19 @@ CHANGELOG
 
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 **Aktualizované preklady pre rozšírenia**:
 
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
 Všetky zmeny: [v1.2.0...v1.3.0](https://github.com/flarum-lang/slovak/compare/v1.2.0...v1.3.0).
