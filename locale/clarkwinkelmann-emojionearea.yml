@@ -3,5 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-emojionearea:
+  admin:
+    settings:
+      enableRecent: 'Povoliť nedávne'
+      enableSearch: 'Povoliť vyhľadávanie'
+      enableTones: 'Povoliť tóny'
+      filtersPosition: 'Presunúť kategórie na spodnú časť'
+      hideFlarumButton: 'Skryť tlačidlo výberu emodži v aplikácii Flarum'
+      searchPosition: 'Presunúť vyhľadávania a tónov na spodnú časť'
   forum:
     picker_button: 'Výber Emotikonu'
+    search_placeholder: Hľadať...
