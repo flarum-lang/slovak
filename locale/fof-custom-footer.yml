@@ -6,3 +6,6 @@ fof-custom-footer:
   admin:
     settings:
       css: CSS
+      height: 'Výška päty (px)'
+      js: JS
+      text: 'Text na päte'
