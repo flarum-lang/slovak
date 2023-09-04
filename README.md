@@ -377,6 +377,7 @@ php flarum cache:clear
 | [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/kilowhat-rich-embeds/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-rich-embeds/sk/) |
 | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/kilowhat-wordpress/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/sk/) |
 | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/maicol07-oidc-client/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/sk/) |
+| [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/sk/) |
 
 <!-- premium-extensions-list-stop -->
 
