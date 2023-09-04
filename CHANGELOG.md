@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.3.1 (XXXX-XX-XX)
+------------------
+
+**Aktualizované preklady pre rozšírenia**:
+
+* [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`afrux/news-widget`](https://github.com/afrux/news-widget)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+
+
+Všetky zmeny: [v1.3.0...v1.3.1](https://github.com/flarum-lang/slovak/compare/v1.3.0...v1.3.1).
+
+
 1.3.0 (2023-09-04)
 ------------------
 
