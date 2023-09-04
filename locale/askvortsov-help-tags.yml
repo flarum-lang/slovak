@@ -10,5 +10,5 @@ askvortsov-help-tags:
     badge:
       show_to_all_tooltip: 'Táto diskusia je viditeľná pre všetkých používateľov, ktorí môžu uverejňovať príspevky v jej značkách.'
     discussion_controls:
-      show_to_all_button: 'Ukázať všetkým, kto tu môžu uverejňovať príspevky.'
+      show_to_all_button: 'Ukázať všetkým, ktorí tu môžu uverejňovať príspevky.'
       unshow_to_all_button: 'Zobrazovať iba tým, ktorí môžu fórum prezerať'

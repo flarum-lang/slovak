@@ -21,10 +21,10 @@ michaelbelgium-discussion-views:
       track_unique_label: 'Sledovať jedinečné prehliadnutia'
   forum:
     discussion_controls:
-      resetviews_button: 'Resetovať zobrazenia.'
+      resetviews_button: 'Resetovať zobrazenia'
     modal_resetviews:
       label: '{count, plural, one {Toto odstráni {count} zobrazenie tejto diskusie. Pokračovať?} few {Toto odstráni {count} zobrazenia tejto diskusie. Pokračovať?} other {Toto odstráni {count} zobrazení tejto diskusie. Pokračovať?}}'
-      submit_button: 'Áno, odstrániť všetky.'
-      title: 'Resetovať počet zobrazení pre diskusiu.'
+      submit_button: 'Áno, odstrániť všetky'
+      title: 'Resetovať počet zobrazení pre diskusiu'
     viewlist:
       title: 'Najnovší diváci'
