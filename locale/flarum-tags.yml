@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Obchádzať požiadavky pre štítky'
       restrict_by_tag_heading: 'Obmedziť štítkom'
       tag_discussions_label: 'Označiť diskusie štítkom'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' do '
       required_primary_heading: 'Požadovaný Počet Hlavných Štítkov'
@@ -53,7 +55,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: 'Vyberte si štítky pre Vašu diskusiu'
     composer_discussion:
-      choose_tags_link: 'Vybrať Štítky'
+      choose_tags_link: '=> flarum-tags.ref.choose_tags'
     discussion_controls:
       edit_tags_button: 'Upraviť Štítky'
     header:
@@ -63,14 +65,23 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'Neoznačené štítkami'
     post_stream:
-      added_and_removed_tags_text: 'Používateľ {username} pridal štítky {tagsAdded} a odstránil štítky {tagsRemoved}.'
-      added_tags_text: 'Používateľ {username} pridal štítky {tagsAdded}.'
-      removed_tags_text: 'Používateľ {username} odstránil štítky {tagsRemoved}.'
+      added_and_removed_tags_text: 'Používateľ {username} pridal štítky {tagsAdded} a odstránil štítky {tagsRemoved} {time}.'
+      added_tags_text: 'Používateľ {username} pridal štítky {tagsAdded} {time}.'
+      removed_tags_text: 'Používateľ {username} odstránil štítky {tagsRemoved} {time}.'
       tags_text: '{count, plural, one {{tags} štítok} few {{tags} štítky} other {{tags} štítkov}}'
     tag:
       meta_description_text: 'Všetky diskusie so štítkom {tag}'
   lib:
     deleted_tag_text: 'Odstránený štítok'
+    tag_selection_modal:
+      bypass_requirements: 'Obísť požiadavky štítkov'
+      choose_primary_placeholder: '{count, plural, one {Vyber hlavný štítok} other {Vyber # hlavných štítkov}}'
+      choose_secondary_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      choose_tags_placeholder: '=> flarum-tags.ref.choose_tags_placeholder'
+      submit_button: '=> core.ref.okay'
+      title: '=> flarum-tags.ref.choose_tags'
   ref:
+    choose_tags: 'Vyber štítky'
+    choose_tags_placeholder: '{count, plural, one {Vyber 1 alebo viac štítkov} other {Vyber # ďalších štítkov}}'
     name: Názov
     tags: Štítky

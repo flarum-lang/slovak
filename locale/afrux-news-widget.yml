@@ -6,4 +6,5 @@ afrux-news-widget:
   admin:
     settings:
       add_line: 'Pridať riadok noviniek'
+      html_warning: 'Prosím buďte opatrný, akékoľvek HTML bude zobrazené.'
       lines: 'Riadky noviniek'

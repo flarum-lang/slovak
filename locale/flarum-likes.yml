@@ -25,3 +25,5 @@ flarum-likes:
       title: 'Používatelia ktorým sa to páči'
     settings:
       notify_post_liked_label: 'Niekomu sa páči môj príspevok'
+    user:
+      likes_link: Lajkov
