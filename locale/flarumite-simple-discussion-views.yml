@@ -7,3 +7,9 @@ core:
     index_sort:
       popular_button: Populárne
       unpopular_button: Nepopulárne
+flarumite-simple-discussion-views:
+  forum:
+    modal_resetviews:
+      label: 'Nastaviť počet zobrazení'
+      submit: Odoslať
+      title: 'Vynulovanie počtu zobrazení diskusie'
