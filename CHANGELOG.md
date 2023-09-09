@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.3.2 (XXXX-XX-XX)
+------------------
+
+**Aktualizované preklady pre rozšírenia**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Všetky zmeny: [v1.3.1...v1.3.2](https://github.com/flarum-lang/slovak/compare/v1.3.1...v1.3.2).
+
+
 1.3.1 (2023-09-09)
 ------------------
 
