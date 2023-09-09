@@ -81,7 +81,7 @@ flarum-tags:
       submit_button: '=> core.ref.okay'
       title: '=> flarum-tags.ref.choose_tags'
   ref:
-    choose_tags: 'Vyber štítky'
-    choose_tags_placeholder: '{count, plural, one {Vyber 1 alebo viac štítkov} other {Vyber # ďalších štítkov}}'
+    choose_tags: 'Vybrať štítky'
+    choose_tags_placeholder: '{count, plural, one {Vyber ešte 1 štítok} other {Vyber aspoň # ďalších štítkov}}'
     name: Názov
     tags: Štítky

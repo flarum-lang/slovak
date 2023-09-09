@@ -13,7 +13,7 @@ v17development-flarum-support:
     create: Vytvoriť
     modals:
       article_ratings:
-        confirm_delete_rating: 'Si si istý že chceš vymazať túto recenziu?'
+        confirm_delete_rating: 'Si si istý že chceš zmazať túto recenziu?'
         username: '=> core.ref.username'
     send: Odoslať
     settings: '=> core.ref.settings'

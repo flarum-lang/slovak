@@ -9,8 +9,8 @@ clarkwinkelmann-emojionearea:
       enableSearch: 'Povoliť vyhľadávanie'
       enableTones: 'Povoliť tóny'
       filtersPosition: 'Presunúť kategórie na spodnú časť'
-      hideFlarumButton: 'Skryť tlačidlo výberu emodži v aplikácii Flarum'
-      searchPosition: 'Presunúť vyhľadávania a tónov na spodnú časť'
+      hideFlarumButton: 'Skryť predvolené Flarum tlačidlo pre výber emodži'
+      searchPosition: 'Presunúť vyhľadávanie a tóny na spodnú časť'
   forum:
     picker_button: 'Výber Emotikonu'
     search_placeholder: Hľadať...
