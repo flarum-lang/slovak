@@ -4,4 +4,15 @@
 
 sycho-ace:
   admin:
+    categories:
+      disabled: Deaktivované
+      enabled: Aktivované
+      none: A-Z
+    category_selection:
+      label: Kategorizovať
+      options:
+        availability: 'Podľa dostupnosti'
+        default: Základne
+        none: Nijako
+        vendor: 'Podľa autora'
     extensions: Doplnky

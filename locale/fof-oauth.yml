@@ -5,3 +5,88 @@
 fof-oauth:
   admin:
     configure_button_label: 'Konfigurovať pomocou FoF OAuth'
+    settings:
+      only_icons_label: 'Ukazovať iba ikony (iné rozloženie)'
+      providers:
+        callback_url_text: 'V prípade potreby nastavte URL presmerovania na {url}.'
+        discord:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Vytvorte si aplikáciu na adrese {link}. Na kartu OAuth2 pridajte adresu URL presmerovania.'
+        facebook:
+          app_id_label: '=> fof-oauth.ref.settings.app_id'
+          app_secret_label: '=> fof-oauth.ref.settings.app_secret'
+          description: 'Vytvorte si aplikáciu na adrese {link}.'
+        github:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Vytvorte aplikáciu OAuth na adrese {link}.'
+        gitlab:
+          client_id_label: '=> fof-oauth.ref.settings.app_id'
+          client_secret_label: '=> fof-oauth.ref.settings.app_secret'
+          description: 'Vytvorte aplikáciu na adrese {link}. Pridajte aplikácii rozsah <code>read_user</code>.'
+          domain_label: 'GitLab doména'
+        google:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Vytvorte aplikáciu na adrese {link}.'
+        linkedin:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Vytvorte aplikáciu na adrese {link}.'
+        twitter:
+          api_key_label: 'API Kľúč'
+          api_secret_label: 'API Tajný kľúč (Secret)'
+          description: 'Vytvorte si aplikáciu na adrese {link}. Budete musieť nastaviť URL adresu Podmienok služby a URL adresu Zásad ochrany osobných údajov. Nezabudnite potom pridať povolenie na vyžiadanie e-mailu.'
+      update_email_from_provider_help: 'Ak je táto možnosť povolená, e-mailová adresa používateľa sa pri každom prihlásení do fóra aktualizuje tak, aby zodpovedala adrese poskytnutej poskytovateľom OAuth. Nie všetci poskytovatelia poskytujú aktualizovaný e-mail, v takom prípade toto nastavenie nebude mať u týchto poskytovateľov žiadny účinok.'
+      update_email_from_provider_label: 'Aktualizovať emailovú adresu z poskytovateľa'
+    settings_accessibility_label: '{name} nastavenia'
+  forum:
+    error:
+      bad_verification_code: 'Neplatný alebo vypršaný overovací token. Skúste to prosím znova.'
+      invalid_state: 'Neplatný stav. Skúste to prosím znova.'
+    log_in:
+      with_button: 'Prihlásenie pomocou {provider}'
+      with_discord_button: '=> fof-oauth.forum.log_in.with_button'
+      with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
+      with_github_button: '=> fof-oauth.forum.log_in.with_button'
+      with_gitlab_button: '=> fof-oauth.forum.log_in.with_button'
+      with_google_button: '=> fof-oauth.forum.log_in.with_button'
+      with_linkedin_button: '=> fof-oauth.forum.log_in.with_button'
+      with_twitter_button: '=> fof-oauth.forum.log_in.with_button'
+    providers:
+      discord: '=> fof-oauth.lib.providers.discord'
+      facebook: '=> fof-oauth.lib.providers.facebook'
+      github: '=> fof-oauth.lib.providers.github'
+      gitlab: '=> fof-oauth.lib.providers.gitlab'
+      google: '=> fof-oauth.lib.providers.google'
+      linkedin: '=> fof-oauth.lib.providers.linkedin'
+      twitter: '=> fof-oauth.lib.providers.twitter'
+    signup:
+      username_help: 'Vyber si prezývku ktorou tu chceš byť volaný'
+    unlink: Odpojiť
+    user:
+      settings:
+        linked-account:
+          help: 'Tieto prepojené účty vám umožňujú prihlásiť sa do fóra pomocou iných poskytovateľov.'
+          identifier-label: '{provider} ID'
+          label: 'Prepojené účty'
+          last-used-label: 'Naposledy použité'
+          link-created-label: 'Prepojenie vytvorené'
+          orphaned-account: 'Predtým ste sa prihlásili prostredníctvom tohto poskytovateľa, ale odvtedy je na tomto fóre prihlasovanie touto metódou zakázané.'
+          unlink-confirm: 'Ste si istí, že chcete odstrániť prepojenie s {provider}? Na fórum sa už nebudete môcť prihlásiť, pokiaľ sa v budúcnosti opätovne neautentifikujete.'
+  lib:
+    providers:
+      discord: Discord
+      facebook: Facebook
+      github: GitHub
+      gitlab: GitLab
+      google: Google
+      linkedin: LinkedIn
+      twitter: Twitter
+  ref:
+    settings:
+      app_id: 'Aplikačné ID'
+      app_secret: 'Tajný kľúč aplikácie (Secret)'
+      client_id: 'Klient ID'
+      client_secret: 'Tajný kľúč klienta (Secret)'
