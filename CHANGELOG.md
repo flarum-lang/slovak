@@ -13,6 +13,7 @@ CHANGELOG
 **Aktualizované preklady pre rozšírenia**:
 
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 
 
