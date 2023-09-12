@@ -6,3 +6,53 @@ fof-username-request:
   admin:
     permissions:
       moderate_requests: 'Schvaľovať žiadosti o zmenu používateľského mena/prezývky'
+      request_nickname: 'Požiadať o zmenu prezývky'
+      request_username: 'Požiadať o zmenu mena'
+  forum:
+    nickname_modals:
+      action:
+        approval_label: Akceptovať
+        decision_title: Rozhodnutie
+        help_text: 'Uisti sa prosím, že táto žiadosť dodržuje pravidlá komunity.'
+        name: '{name} si požiadal o zmenu prezývky na "{requestedName}"'
+        reason_title: 'Dôvod pre zamietnutie'
+        rejected_label: Odmietnuť
+        submit_button: Potvrdiť
+        success: 'Rozhodnutie poslané.'
+        title: '=> fof-username-request.ref.nickname_change_request'
+      request:
+        confirmation_message: 'Vaša žiadosť o zmenu prezývky bola odoslaná a čaká na akceptovanie.'
+        current_request: 'Už ste požiadali o zmenu svojej prezývky na "{name}". Svoju žiadosť môžete aktualizovať alebo vymazať.'
+        delete_button: 'Vymazať požiadavku'
+        deleted: 'Požiadavka o zmenu prezývky odstránená.'
+        dismiss_button: '=> core.ref.okay'
+        submit_button: 'Poslať požiadavku'
+        title: 'Požiadať o zmenu prezývky'
+      results:
+        approved: 'Vaša žiadosť o zmenu prezývky bola akceptovaná'
+        dismiss_button: '=> core.ref.okay'
+        new_name: 'Vaša prezývka bola úspešne zmenená na novú: {name}'
+        reason: 'Dôvod pre zamietnutie: <i>"{reason}"</i>.'
+        rejected: 'Vaša žiadosť o zmenu prezývky bola odmietnutá'
+        resubmit: 'V tomto okamihu môžete v nastaveniach svojho konta opätovne odoslať novú žiadosť o zmenu prezývky, ak sa tak rozhodnete.'
+        title: 'Požiadavka o zmenu prezývky'
+    pending_requests:
+      tooltip: '=> fof-username-request.ref.name_change_requests'
+    username_modals:
+      action:
+        approval_label: Akceptovať
+        decision_title: Rozhodnutie
+        help_text: 'Uisti sa prosím, že táto žiadosť dodržuje pravidlá komunity.'
+        name: '{name} si požiadal o zmenu mena na "{requestedName}"'
+        reason_title: 'Dôvod pre zamietnutie'
+        rejected_label: Odmietnuť
+        submit_button: Potvrdiť
+        success: 'Rozhodnutie odoslané.'
+        title: '=> fof-username-request.ref.username_change_request'
+      results:
+        approved: 'Tvoja požiadavka o zmenu mena bola akceptovaná'
+        dismiss_button: '=> core.ref.okay'
+        new_name: 'Vaše meno bola úspešne zmenené na nové: {name}'
+        reason: 'Dôvod pre zamietnutie: <i>"{reason}"</i>.'
+        rejected: 'Vaša žiadosť o zmenu mena bola odmietnutá'
+        title: 'Požiadavka o zmenu mena'
