@@ -37,7 +37,18 @@ fof-username-request:
         resubmit: 'V tomto okamihu môžete v nastaveniach svojho konta opätovne odoslať novú žiadosť o zmenu prezývky, ak sa tak rozhodnete.'
         title: 'Požiadavka o zmenu prezývky'
     pending_requests:
+      empty_text: 'Žiadne žiadosti o zmenu mena nenájdené.'
+      nickname_exerpt: 'Požadovaná prezývka: {requestedName}'
+      nickname_item_text: '{name} si žiada o zmenu prezývky'
+      title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
+      username_exerpt: 'Požadované meno: {requestedName}'
+      username_item_text: '{name} si žiada o zmenu mena'
+    settings:
+      nickname_request_button: 'Zmeniť prezývku'
+      username_request_button: 'Zmeniť meno'
+    user:
+      name_history_link: 'História mien'
     username_modals:
       action:
         approval_label: Akceptovať
@@ -49,10 +60,26 @@ fof-username-request:
         submit_button: Potvrdiť
         success: 'Rozhodnutie odoslané.'
         title: '=> fof-username-request.ref.username_change_request'
+      request:
+        confirmation_message: 'Vaša žiadosť o zmenu mena bola odoslaná a čaká na schválenie.'
+        current_request: 'Už ste požiadali o zmenu svojho mena na "{name}". Svoju žiadosť môžete aktualizovať alebo vymazať.'
+        delete_button: 'Odstrániť požiadavku'
+        deleted: 'Žiadosť o zmenu mena odstránená.'
+        dismiss_button: '=> core.ref.okay'
+        submit_button: 'Podať požiadavku'
+        title: 'Požiadať o zmenu mena'
       results:
         approved: 'Tvoja požiadavka o zmenu mena bola akceptovaná'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Vaše meno bola úspešne zmenené na nové: {name}'
         reason: 'Dôvod pre zamietnutie: <i>"{reason}"</i>.'
         rejected: 'Vaša žiadosť o zmenu mena bola odmietnutá'
+        resubmit: 'V tomto okamihu môžete v nastaveniach svojho konta opätovne odoslať žiadosť o zmenu na nové meno, ak sa tak rozhodnete.'
         title: 'Požiadavka o zmenu mena'
+  ref:
+    name_change_request: 'Žiadosť o zmenu mena'
+    name_change_requests: 'Žiadosti o zmenu mena'
+    nickname_change_request: 'Žiadosť o zmenu prezývky'
+    nickname_change_requests: 'Žiadosti o zmenu prezývky'
+    username_change_request: 'Požiadavka o zmenu mena'
+    username_change_requests: 'Požiadavky o zmenu mena'
