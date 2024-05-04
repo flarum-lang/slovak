@@ -7,6 +7,7 @@ CHANGELOG
 
 **Pridaná podpora pre nové rozšírenia**:
 
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
 
