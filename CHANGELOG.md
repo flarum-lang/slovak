@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.4.0 (2024-09-13)
+------------------
+
+**Pridaná podpora pre nové rozšírenia**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+**Aktualizované preklady pre rozšírenia**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
+
+
+Všetky zmeny: [v1.3.2...v1.4.0](https://github.com/flarum-lang/slovak/compare/v1.3.2...v1.4.0).
+
+
 1.3.2 (2023-09-09)
 ------------------
 
