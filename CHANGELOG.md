@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.5.0 (XXXX-XX-XX)
+1.4.1 (XXXX-XX-XX)
 ------------------
 
 **Pridaná podpora pre nové rozšírenia**:
@@ -11,7 +11,7 @@ CHANGELOG
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
-Všetky zmeny: [v1.4.0...v1.5.0](https://github.com/flarum-lang/slovak/compare/v1.4.0...v1.5.0).
+Všetky zmeny: [v1.4.0...v1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...v1.4.1).
 
 
 1.4.0 (2024-09-13)
