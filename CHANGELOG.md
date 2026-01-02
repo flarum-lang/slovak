@@ -7,6 +7,7 @@ CHANGELOG
 
 **Pridaná podpora pre nové rozšírenia**:
 
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
