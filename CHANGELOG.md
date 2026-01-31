@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.4.1 (XXXX-XX-XX)
+------------------
+
+**Pridaná podpora pre nové rozšírenia**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Všetky zmeny: [v1.4.0...v1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...v1.4.1).
+
+
 1.4.0 (2024-09-13)
 ------------------
 
