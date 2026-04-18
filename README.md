@@ -5,7 +5,7 @@ Slovak language pack for [Flarum](https://flarum.org).
 
 ### Installation:
 ```
-composer require flarum-lang/slovak
+composer require "flarum-lang/slovak:*"
 ```
 
 ### Updating
