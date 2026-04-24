@@ -8,6 +8,7 @@ CHANGELOG
 **Pridaná podpora pre nové rozšírenia**:
 
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
 Všetky zmeny: [v2.0.0...v2.0.1](https://github.com/flarum-lang/slovak/compare/v2.0.0...v2.0.1).
