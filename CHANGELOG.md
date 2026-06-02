@@ -7,6 +7,7 @@ CHANGELOG
 
 **Pridaná podpora pre nové rozšírenia**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
