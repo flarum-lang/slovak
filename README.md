@@ -323,7 +323,7 @@ php flarum cache:clear
 | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/sycho-github-milestone/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-github-milestone/sk/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/sk/) |
 | [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/sk/) |
-| [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/sk/) |
+| [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum/sk/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/sk/) |
 
 <!-- various-extensions-list-stop -->
 
