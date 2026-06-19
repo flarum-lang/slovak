@@ -55,6 +55,7 @@ php flarum cache:clear
 
 | Rozšírenie | Stav |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum2/sk/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/sk/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum2/sk/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/sk/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum2/sk/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/sk/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Stav prekladu](https://weblate.rob006.net/widgets/flarum2/sk/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-best-answer/sk/) |
