@@ -12,6 +12,7 @@ CHANGELOG
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
