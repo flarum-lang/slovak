@@ -8,6 +8,7 @@ CHANGELOG
 **Pridaná podpora pre nové rozšírenia**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
@@ -18,6 +19,7 @@ CHANGELOG
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
