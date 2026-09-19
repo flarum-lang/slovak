@@ -252,7 +252,7 @@ core:
     confirm_email:
       subject: 'Potvrď svoju novú E-mailovú adresu'
     reset_password:
-      subject: '=> Zmena Hesla'
+      subject: '=> core.ref.reset_your_password'
     send_test:
       subject: 'Flarum Testovací Mail'
   forum:
