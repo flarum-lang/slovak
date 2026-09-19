@@ -5,6 +5,11 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
+**Všeobecné zmeny**:
+
+* Aktualizované preklady Flarum core.
+
+
 **Pridaná podpora pre nové rozšírenia**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
@@ -24,6 +29,11 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+
+
+**Aktualizované preklady pre rozšírenia**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 
 
 Všetky zmeny: [v2.0.0...v2.0.1](https://github.com/flarum-lang/slovak/compare/v2.0.0...v2.0.1).
