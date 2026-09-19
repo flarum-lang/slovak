@@ -11,7 +11,7 @@ fof-reactions:
         converting: 'Vaše reakcie sa teraz konvertujú. Obnovte stránku po niekoľkých minútach, pokiaľ chcete vidieť proces konvertovania. (Čas prevodu môže chvíľu trvať, v závislosti od celkového počtu vašich reakcií)'
         help: 'Ak ste práve aktualizovali Vaše rozšírenia, vaše reakcie bude potrebné konvertovať. Ak ste si práve nainštalovali toto rozšírenie, môžete túto správu bezpečne ignorovať.'
       reactions:
-        Helptext: 'Vložte názov {identifier} pre emoji alebo font-awesome ikonu a vyberte aký typ si želáte.'
+        Helptext: 'Vložte názov (identifikátor) pre emoji alebo font-awesome ikonu a vyberte aký typ si želáte.'
         help:
           display: Zobraziť
           identifier: Identifikátor

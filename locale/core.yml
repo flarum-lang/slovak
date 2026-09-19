@@ -277,7 +277,7 @@ core:
       subject: 'Potvrď svoju novú E-mailovú adresu'
     reset_password:
       body: "Ahoj {username}!\n\nNiekto (dúfam že vy!) odoslal žiadosť o zabudnuté heslo na fóre {forum}.\n\nAk ste to boli Vy, prosím kliknite na nasledujúci odkaz a zmeňte si heslo:\n{url}\n\nAk si neželáte zmeniť heslo, prosím odignorujte tento E-mail a nič sa nestane.\n"
-      subject: '=> Zmena Hesla'
+      subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Ahoj {username}!\n\nToto je testovací mail od Flarum, aby ste sa uistili že všetko funguje tak ako má.\n\nAk ste to Vy, tak to znamená že Vaše E-mailové nastavenia fungujú správne!\n\nAk ste to neboli Vy, prosím odignorujte tento E-mail.\n"
       subject: 'Flarum Testovací Mail'
