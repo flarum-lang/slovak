@@ -5,12 +5,12 @@ CHANGELOG
 1.4.1 (XXXX-XX-XX)
 ------------------
 
-**Všeobecné zmeny**:
+**General changes**:
 
-* Aktualizované preklady Flarum core.
+* Updated Flarum core translations (1 changed).
 
 
-**Pridaná podpora pre nové rozšírenia**:
+**Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
@@ -20,12 +20,12 @@ CHANGELOG
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
-**Aktualizované preklady pre rozšírenia**:
+**Updated translations for extensions**:
 
-* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
 
 
-Všetky zmeny: [v1.4.0...v1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...v1.4.1).
+All changes: [v1.4.0...1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...1.4.1).
 
 
 1.4.0 (2024-09-13)
