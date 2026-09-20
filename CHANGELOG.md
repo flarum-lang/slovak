@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.4.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Updated translations for extensions**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+
+
+All changes: [v1.4.0...1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...1.4.1).
+
+
 1.4.0 (2024-09-13)
 ------------------
 
