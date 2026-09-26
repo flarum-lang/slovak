@@ -12,17 +12,17 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
-* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
-* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
-* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
-* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
-* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (100% complete)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates) (7% complete)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (62% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (2% complete)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis) (7% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (11% complete)
 
 
 **Updated translations for extensions**:
 
-* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed, 69% complete)
 
 
 All changes: [v1.4.0...1.4.1](https://github.com/flarum-lang/slovak/compare/v1.4.0...1.4.1).
