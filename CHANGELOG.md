@@ -2,6 +2,43 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-09-30)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (45% complete)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (0% complete)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) (16% complete)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (8% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2% complete)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (83% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (1% complete)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (4% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (21% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (11% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (50% complete)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (3% complete)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) (7% complete)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) (3% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (51% complete)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (4% complete)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) (20% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (1 changed, 47% complete)
+
+
+All changes: [v2.0.0...2.0.1](https://github.com/flarum-lang/slovak/compare/v2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
