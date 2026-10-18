@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (25% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (20% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (3% complete)
 
 
 All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/slovak/compare/2.0.1...2.0.2).
