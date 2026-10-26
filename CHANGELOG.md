@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/slovak/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-10-20)
 ------------------
 
