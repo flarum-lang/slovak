@@ -1,47 +1,37 @@
 {
-    "name": "flarum-lang/slovak",
-    "description": "Slovak language for Flarum.",
-    "type": "flarum-extension",
-    "keywords": ["flarum", "extension", "slovak", "locale", "translation", "i18n"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "SKevo",
-            "email": "me@kevo.link"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/slovak/issues",
-        "source": "https://github.com/flarum-lang/slovak",
-        "forum": "https://discuss.flarum.org/d/20993"
-    },
-    "require": {
-        "flarum/core": "^1.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Slovak",
-            "category": "language",
-            "info": {
-                "website": "https://github.com/flarum-lang/slovak",
-                "support": "https://github.com/flarum-lang/slovak/issues"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "sk",
-            "title": "Slovenčina"
-        },
-        "extiverse": {
-            "discuss": "https://discuss.flarum.org/d/20993"
-        }
-    }
+	"name": "flarum-lang/slovak",
+	"description": "Slovak Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/slovak",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/flarum-lang/slovak/issues",
+		"forum": "https://discuss.flarum.org/d/20993",
+		"source": "https://github.com/flarum-lang/slovak"
+	},
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Slovak",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#fff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "sk",
+			"title": "Slovenčina"
+		}
+	}
 }
